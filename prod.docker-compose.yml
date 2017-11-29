@@ -48,7 +48,7 @@ services:
       driver: "json-file"
       options:
         max-size: "200k"
-        max-file: 10
+        max-file: "10"
 
   # redis
   cache:
